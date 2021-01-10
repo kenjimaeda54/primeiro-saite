@@ -90,12 +90,13 @@ h1{
 h2{
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight:normal;
     font-size: 20px;
     line-height: 25px;
-    color: #555555;
-    opacity: 50%;
+    color: #6F6464;
     text-align:left;
+    line-height: 35px;
+
 
 }
 .corpo .botao{
