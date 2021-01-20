@@ -1,6 +1,7 @@
 import Proptypes, { element } from 'prop-types';
 import {useState} from 'react';
 import Comum from './Comum';
+import Singup from './Singup';
 import "./css/app.css";
 import Banner from './Banner';
 import {BrowserRouter, Route, Link, Switch} from 'react-router-dom';
@@ -15,6 +16,7 @@ function App() {
        {text:"INSCREVER-SE", content:MainContent.FORM},
        {text:"ENTRAR", content:MainContent.NYI},
 ]
+
   return (
        <BrowserRouter>
        <header className="estilo">
@@ -44,10 +46,19 @@ function App() {
        </header>
         <main>
          <Switch>
-             <Route path="singup">
-                 <p> FORM </p> 
+             <Route path="/singup">
+              <Singup
+               classlogin="corpo1" 
+               email="E-mail ou Usuario"
+               senha="Senha"
+               evento="Login"
+               esqueceu= "Esqueceu sua senha?"
+               cadastro="Cadastrar"
+               facebook= "Facebook"
+               gmail="Gmail"
+             />    
+            
              </Route>
-             
              <Route path="nyi">
                   <p> NYI </p>
              </Route>
@@ -79,6 +90,6 @@ const MainContent = Object.freeze({
   
        NYI:"NYI",
        BANNER: "BANNER",
-       FORM: "FORM",
+       SINGUP: "SINGUP",
 
 })
