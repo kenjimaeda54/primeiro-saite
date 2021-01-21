@@ -263,6 +263,24 @@ h2{
     line-height: 23px;
     
 }
+.usuario{
+    position: absolute;
+    position: absolute;
+    width: 30px;
+    height: 19.23px;
+    margin-left: 270px;
+    top: 203px;
+}
+.cadeado{
+    position: absolute;
+    width: 30px;
+    height: 34.71px;
+    margin-left:270px;
+    top: 445px;
+}
+
+
+
 
 
 .corpo1 .enviar{
@@ -312,13 +330,31 @@ h2{
     line-height: 23px;
     color: #FFFFFF;
 }
+
+.facebook{
+    position: absolute;
+    width: 33px;
+    height: 28px;
+    margin-top: 54.89px;
+    margin-left: -55px;
+
+
+
+}
+.gmail{
+    position: absolute;
+    width: 27.79px;
+    height: 28px;
+    margin-left:130px;
+    margin-top:54.89px;
+}
 .botao1{
     margin-top: 50px;
     margin-left:10px;
     width: 150px;
     height: 35px;
     border-radius: 5px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Courier New', Courier, monospace;
     font-style:unset;
     font-weight: 500;
     font-size: 15px;
@@ -328,18 +364,19 @@ h2{
     background-color: #3B5998;
     text-align: start;
     
+    
 }
 
 
 .botao2{
     margin-top: 50px;
     margin-left: 30px;
-    width: 150px;
-    height: 35px;
-    background: #D22A2A;
+    width: 153px;
+    height: 37px;
+    background-color: #D22A2A;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
-    font-style: normal;
+    font-style: unset;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
