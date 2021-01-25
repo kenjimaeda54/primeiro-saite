@@ -263,14 +263,25 @@ h2{
     line-height: 23px;
     
 }
-.usuario{
-    position: absolute;
-    position: absolute;
-    width: 30px;
-    height: 19.23px;
-    margin-left: 270px;
-    top: 203px;
+.user input{
+     background-image: url(/src/img/usuario.png);
+     background-size: 15%;
+     background-repeat: no-repeat;
+     background-position: right;
 }
+.user input{
+    background-image: none;
+}
+.block input{
+     background-image: url(/src/img/cadeado.png);
+     background-size: 13%;
+     background-repeat: no-repeat;
+     background-position: right;
+}
+.block input:focus{
+    background-image: none;
+}
+
 .cadeado{
     position: absolute;
     width: 30px;

@@ -23,7 +23,7 @@ function App() {
          <Link     
             to= "/"
             >
-          <img className="box" url= "/img/projetoMusica.jpeg"/>           
+         <img className="box" url= "/img/projetoMusica.jpeg"/>            
           </Link> 
          <nav className="comportamento">
             <Comum 
