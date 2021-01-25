@@ -1,9 +1,6 @@
 import Proptypes, { array } from 'prop-types';
-import cadeado from "./img/cadeado.png";
-import usuario from "./img/usuario.png";
 import facebok from "./img/facebook.jpg"
 import gmaeil from "./img/335.jpg";
-
 
 
 function Singup (props){
@@ -12,10 +9,9 @@ function Singup (props){
    <>
    <body style={bimg && {background:bimg}} class={classlogin}>
     <form class="formulario31">
-      <div><input  type="text" name="nome"  placeholder={email}/></div>    
-      <div><img src={usuario} class="usuario"/></div>
-      <div><input  type="text" name="number" placeholder={senha}/></div>
-      <div> <img src={cadeado} class="cadeado"/></div>
+      <div class="user"><input class="user" type="text" name="nome"  placeholder={email}/></div>    
+      <div class="block"><input  type="text" name="number" placeholder={senha}/></div>
+  
       <div><input  class="enviar" type="button" value="Login"/></div>
     </form>  
     <ul class="lista31">
