@@ -269,7 +269,7 @@ h2{
      background-repeat: no-repeat;
      background-position: right;
 }
-.user input{
+.user input:focus{
     background-image: none;
 }
 .block input{
